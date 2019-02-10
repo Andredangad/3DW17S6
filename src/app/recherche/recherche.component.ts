@@ -17,6 +17,7 @@ showDetails(jeu) {
     if(jeu && jeu.id)
     {
       this.router.navigate(['/game-detail', jeu.id]);
+	  
     }
 }
 }

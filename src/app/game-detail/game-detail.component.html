@@ -7,13 +7,13 @@ Détails du jeu :
 <p> {{jeu.summary}} </p>
 <br/>
 
-<input type="submit" value="Ajouter le jeu" (click)="jouerJeu(game.id)"/> 
+<input type="submit" value="Ajouter le jeu" id="valeur" (click)="jouerJeu(game.id)"/> 
 <br/>
 <form>
 
-      <input placeholder="" id="note"/>
+    <input placeholder="" id="note"/>
 
-    <input type="submit" value="Noter" (click)="noterJeu(game.id, note.value)"/> 
+    <input type="submit" value="Noter" id="btn_note" (click)="noterJeu(game.id, note.value)"/> 
 	</form>
 
 </div>

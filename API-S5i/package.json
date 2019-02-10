@@ -1,0 +1,27 @@
+{
+  "name": "game-tracker-server-du-groupe2",
+  "version": "1.0.0",
+  "description": "Backend API for application Game Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Game",
+    "IGDB"
+  ],
+  "author": "Matthieu Giraud",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "curl": "^0.1.4",
+    "express": "^4.16.4",
+    "igdb-api-node": "^3.1.7",
+    "mongoose": "^5.0.0-rc2"
+  }
+}
